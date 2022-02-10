@@ -11,6 +11,10 @@
 		3DF61AAB27B486B80017F171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF61AAA27B486B80017F171 /* ContentView.swift */; };
 		3DF61AAD27B486B90017F171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF61AAC27B486B90017F171 /* Assets.xcassets */; };
 		3DF61AB027B486B90017F171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF61AAF27B486B90017F171 /* Preview Assets.xcassets */; };
+		3DF61ABE27B48B830017F171 /* GithubSearchRepositoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF61ABD27B48B830017F171 /* GithubSearchRepositoriesResponse.swift */; };
+		3DF61AC027B48D180017F171 /* GithubRepositorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF61ABF27B48D180017F171 /* GithubRepositorySearchModel.swift */; };
+		3DF61AC227B48ECD0017F171 /* GithubSearchRepositoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF61AC127B48ECD0017F171 /* GithubSearchRepositoriesAPI.swift */; };
+		3DF61AC627B494730017F171 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF61AC527B494730017F171 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3DF61AAA27B486B80017F171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DF61AAC27B486B90017F171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF61AAF27B486B90017F171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DF61ABD27B48B830017F171 /* GithubSearchRepositoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchRepositoriesResponse.swift; sourceTree = "<group>"; };
+		3DF61ABF27B48D180017F171 /* GithubRepositorySearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepositorySearchModel.swift; sourceTree = "<group>"; };
+		3DF61AC127B48ECD0017F171 /* GithubSearchRepositoriesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchRepositoriesAPI.swift; sourceTree = "<group>"; };
+		3DF61AC527B494730017F171 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		3DF61AA727B486B80017F171 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3DF61ABA27B489870017F171 /* Models */,
 				3DF61AA827B486B80017F171 /* SwiftUI_MVCApp.swift */,
 				3DF61AAA27B486B80017F171 /* ContentView.swift */,
 				3DF61AAC27B486B90017F171 /* Assets.xcassets */,
@@ -65,6 +74,17 @@
 				3DF61AAF27B486B90017F171 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DF61ABA27B489870017F171 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DF61ABD27B48B830017F171 /* GithubSearchRepositoriesResponse.swift */,
+				3DF61ABF27B48D180017F171 /* GithubRepositorySearchModel.swift */,
+				3DF61AC127B48ECD0017F171 /* GithubSearchRepositoriesAPI.swift */,
+				3DF61AC527B494730017F171 /* APIClient.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF61AC227B48ECD0017F171 /* GithubSearchRepositoriesAPI.swift in Sources */,
 				3DF61AAB27B486B80017F171 /* ContentView.swift in Sources */,
+				3DF61ABE27B48B830017F171 /* GithubSearchRepositoriesResponse.swift in Sources */,
+				3DF61AC027B48D180017F171 /* GithubRepositorySearchModel.swift in Sources */,
 				3DF61AA927B486B80017F171 /* SwiftUI_MVCApp.swift in Sources */,
+				3DF61AC627B494730017F171 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
